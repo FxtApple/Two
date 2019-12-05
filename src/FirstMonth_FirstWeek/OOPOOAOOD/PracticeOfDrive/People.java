@@ -1,5 +1,4 @@
 package FirstMonth_FirstWeek.OOPOOAOOD.PracticeOfDrive;
-
 class People {
     /**
      * 身份证
