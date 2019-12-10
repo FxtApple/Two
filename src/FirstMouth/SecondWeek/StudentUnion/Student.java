@@ -11,6 +11,10 @@ public class Student {
     public boolean isNotSendEmail;    //是否有未发送邮件
     public boolean isNotReceiveEmail; //是否有未接受邮件
 
+    public String getWriteFilePath() {
+        return writeFilePath;
+    }
+
     //可作为发送邮件的学生
     public Student(int sendStudentID, String receiveEmailID,Email email) {
         this.sendStudentID = sendStudentID;        //发件学生ID

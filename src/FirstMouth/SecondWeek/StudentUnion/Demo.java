@@ -12,8 +12,10 @@ public class Demo {
         department.setDepartmentID(001);
         department.setBuZhang(buZhang);
 
-        Student buZhang2 = new Student("0000001","C:\\Users\\dell\\Desktop\\c.txt");
-
+        Student buZhang2 = new Student("1783587395@qq.com","C:\\Users\\dell\\Desktop\\c.txt");
+        String filePath = buZhang2.getWriteFilePath();
+        Email receiveEmail = new Email("0000001",filePath);
+        receiveEmail.receiveEmial(readFilePath,filePath);
         Department department2 = new Department();
         department2.setName("体育部");
         department2.setDepartmentID(002);
